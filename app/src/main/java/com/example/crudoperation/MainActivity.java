@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
             UserAdapter ua = new UserAdapter(c.get(), users);
             rv.setAdapter(ua);
 
-            new GetAllLibAndUsers(c.get()).execute();
+            //new GetAllLibAndUsers(c.get()).execute();
         }
     }
 
